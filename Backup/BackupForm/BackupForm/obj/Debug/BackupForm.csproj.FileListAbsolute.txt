@@ -1,0 +1,13 @@
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\bin\Debug\BackupForm.exe.config
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\bin\Debug\BackupForm.exe
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\bin\Debug\BackupForm.pdb
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\obj\Debug\BackupForm.Form1.resources
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\obj\Debug\BackupForm.Properties.Resources.resources
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\obj\Debug\BackupForm.csproj.GenerateResource.Cache
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\obj\Debug\BackupForm.exe
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\obj\Debug\BackupForm.pdb
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\bin\Debug\BackupForm.exe.manifest
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\bin\Debug\BackupForm.application
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\obj\Debug\BackupForm.exe.manifest
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\obj\Debug\BackupForm.application
+C:\Users\dwilliam\Source\Repos\BackUp2\BackupForm\BackupForm\obj\Debug\BackupForm.csprojResolveAssemblyReference.cache

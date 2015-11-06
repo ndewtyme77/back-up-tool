@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BackupForm.exe" version="1.0.0.0" publicKeyToken="dbfe00cb213f1636" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BackupForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BackupForm.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BackupForm.exe" size="14336">
+      <assemblyIdentity name="BackupForm" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>r8sQKsyBCYoHfqQbyDDt6s0WsD2n9n/sAGbMYS40EXo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BackupForm.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SCIQUEST\dwilliam" issuerKeyHash="a23e58ec44404a9e18724941997c6c675bb50a65" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OHyPk/jWRrcPBFQvYi2C4OgShjaN6bpieou4DTLanlg=</DigestValue></Reference></SignedInfo><SignatureValue>bASBZSxzzHTB+rd9kzb7GU/UnODaRs8PEHA1cIPNTa9HP9JVOYoBzuFQpDbmSim6BrDpB8DM9Byxy+z6H7d5tHGjVH5dhwPguc+oIyrCca0vDKxAyZe+f/BfbW3ZupSVE2qc1UxgqdaCXquxf/acQ7XtI4Q3P7mV5w8t2OXKc7U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>n7CoY3W6Mus4CACb89xR3PQuWUi/UyLO/B+MQWZQWmz0cohdvZuz6O93ZlRKqySS6CHaBsCYTLlKsGMHC0GAttoeHHq7Z61KCFDRzlZZiK5Nrj3Aggv9axmINkRoiKlOD+xV/gs7hzwPIlHSg49EaD4c+VRIR8gSV/uogbvyMR8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="589eda320db88b7a62bae98d368612e8e0822d622f54040fb746d6f8938f7c38" Description="" Url=""><as:assemblyIdentity name="BackupForm.exe" version="1.0.0.0" publicKeyToken="dbfe00cb213f1636" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SCIQUEST\dwilliam</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>FxVajo371ZGOcmpytSMESuiG/V5jZ7HP9WGfL5Iv4jw=</DigestValue></Reference></SignedInfo><SignatureValue>cy+C7Oh+RNFsqkGShkD62wjjmMxha39PPH0q/yTv7Qmh44TZfEeKRZ0uzs4W9YeQiQ/y1DKGsH79+swo6XP5A8Pto+yvcMCx6kXt5VQVNxTY4dj9rsr84MRSQ7Y3NkcSOH0Zgtk0+4R5xdQMDkDu+6fO6pQxTjNOICEJQ1i6uyc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>n7CoY3W6Mus4CACb89xR3PQuWUi/UyLO/B+MQWZQWmz0cohdvZuz6O93ZlRKqySS6CHaBsCYTLlKsGMHC0GAttoeHHq7Z61KCFDRzlZZiK5Nrj3Aggv9axmINkRoiKlOD+xV/gs7hzwPIlHSg49EaD4c+VRIR8gSV/uogbvyMR8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQQwAkx8xSXbZNUIKTWVOeeDANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIAUwBDAEkAUQBVAEUAUwBUAFwAZAB3AGkAbABsAGkAYQBtMB4XDTE0MDYxMTE4NDQwNVoXDTE1MDYxMjAwNDQwNVowLTErMCkGA1UEAx4iAFMAQwBJAFEAVQBFAFMAVABcAGQAdwBpAGwAbABpAGEAbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAn7CoY3W6Mus4CACb89xR3PQuWUi/UyLO/B+MQWZQWmz0cohdvZuz6O93ZlRKqySS6CHaBsCYTLlKsGMHC0GAttoeHHq7Z61KCFDRzlZZiK5Nrj3Aggv9axmINkRoiKlOD+xV/gs7hzwPIlHSg49EaD4c+VRIR8gSV/uogbvyMR8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQCcC8SoXc7aa14KZ+wX+/EAQlXr3FVjhYaTih1wXygj9iEMK8buIlRGnI90lFhqVgvd6ORz5iljnLF8jzYcrhg6luzI29HMGbmQs2Dt1/j2I4LcFcJlJy13TiBmtyRMHVqX33La3W73O2cFCfeEys9AMr/JTU20heejJ2WfRxRAsg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
